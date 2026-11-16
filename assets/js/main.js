@@ -1,0 +1,1 @@
+document.querySelectorAll('.navlinks a').forEach(link=>{link.addEventListener('click',()=>{document.querySelectorAll('.navlinks a').forEach(a=>a.classList.remove('active'));link.classList.add('active');});});
